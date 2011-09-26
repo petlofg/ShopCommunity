@@ -1,0 +1,53 @@
+/* 
+    Document   : style
+    Created on : 2011-sep-24, 23:27:02
+    Author     : Petter Löfgren
+    Description:
+        General style sheet for the jspWebshop
+*/
+
+/* > Header
+-----------------------------
+*/
+
+div#header{
+    width:400px;
+    padding:10px;
+    background-color:#027487;
+    margin:10px;
+}
+
+/* > Left Sidebar
+-----------------------------
+*/
+
+div#lsidebar{
+    
+}
+
+/* > Central Body
+-----------------------------
+*/
+div#cbody{
+    
+}
+
+/* > Footer
+-----------------------------
+*/
+div#footer{
+    
+}
+
+/* > Other
+------------------------
+*/
+
+div#mainbox{
+    width:400px;
+    margin-left:50px;
+    margin-right:50px;
+    color:white;
+}
+
+body {background-color:#b0c4de;} 
