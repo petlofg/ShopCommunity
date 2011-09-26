@@ -15,9 +15,16 @@
     <body>
         <div id="mainbox">
             <div id="header">
-                Hello World
+                HEADER
             </div>
-            HEJ
+            <div id="lsidebar">
+                Category1 <br/>
+                Category2 <br/>
+                Category3 <br/>
+            </div>
+            <div id="cbody">
+                Välkommen till hemsidan!
+            </div>
         </div>
     </body>
 </html>

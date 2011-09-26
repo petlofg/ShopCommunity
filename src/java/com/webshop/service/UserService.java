@@ -8,6 +8,6 @@ package com.webshop.service;
  *
  * @author Petter
  */
-public interface UserServiceInterface {
+public class UserService {
     
 }

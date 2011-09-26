@@ -2,12 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.webshop.dao;
+package com.webshop.domain;
 
 /**
  *
  * @author Petter
  */
-public interface UserDaoInterface {
+public class Category {
     
 }

@@ -2,14 +2,12 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.webshop.dao.impl;
-
-import com.webshop.dao.UserDaoInterface;
+package com.webshop.dao;
 
 /**
  *
  * @author Petter
  */
-public class UserDaoImpl implements UserDaoInterface{
+public class UserDao {
     
 }

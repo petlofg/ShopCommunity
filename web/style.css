@@ -14,40 +14,57 @@
 
 /* > Left Sidebar
 -----------------------------
-*/
+
 
 div#lsidebar{
     
-}
+}*/
 
 /* > Central Body
 -----------------------------
-*/
+
 div#cbody{
     
-}
+}*/
 
 /* > Footer
 -----------------------------
-*/
+
 div#footer{
     
-}
+}*/
 
 /* > Other
 ------------------------
 */
 
 div#mainbox{
-    float:right;
-    width:500px;
-    margin-left:30%;
-    margin-right:30%;
+    float:left;
+    width:800px;
+    margin-left:10%;
+    margin-right:10%;
     background-color:#FFFFFF;
 }
 
 div#mainbox div#header{
     background-color:#027487;
+    padding:10px;
+}
+
+div#mainbox div#lsidebar{
+    float:left;
+    background-color:#AABBCC;
+    padding:10px;
+}
+
+div#mainbox div#cbody{
+    background-color:#FFFFFF;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+div#mainbox div#footer{
+    
 }
 
 body {background-color:#b0c4de;} 
