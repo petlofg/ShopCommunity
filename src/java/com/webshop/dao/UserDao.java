@@ -9,7 +9,7 @@ package com.webshop.dao;
  * @author Petter
  */
 public class UserDao {
-    public static boolean login(String eMail, String password){
+    public static boolean login(String eMail, String encryptedPassword){
         
         return false;
     }
@@ -18,7 +18,7 @@ public class UserDao {
         
     }
     
-    public static void setRole(String eMail){
+    public static void setRole(String eMail, Enum role){
         //TODO: Add role enum
     }
     
