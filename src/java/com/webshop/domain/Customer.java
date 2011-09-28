@@ -13,7 +13,7 @@ public class Customer extends User {
     private String postalCode;
     private String cityName;
     private ShoppingCart shoppingCart;
-    private OrderList orderList;
+//    private OrderList orderList;
     
     public Customer(){
         super();
@@ -50,12 +50,12 @@ public class Customer extends User {
     public void setShoppingCart(ShoppingCart shoppingCart){
         this.shoppingCart = shoppingCart;
     }
-    
-    public OrderList getOrderList(){
-        return orderList;
-    }
-    
-    public void setOrderList(OrderList orderList){
-        this.orderList = orderList;
-    }
+//    
+//    public OrderList getOrderList(){
+//        return orderList;
+//    }
+//    
+//    public void setOrderList(OrderList orderList){
+//        this.orderList = orderList;
+//    }
 }

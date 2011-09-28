@@ -22,10 +22,10 @@
         </tr>
         <tr>
           <td align="right">
-            Account
+            Login
           </td>
           <td align="left">
-            <html:text property="name" size="30" maxlength="30"/>
+            <html:text property="login" size="30" maxlength="30"/>
           </td>
         </tr>
         <tr>
@@ -33,13 +33,13 @@
             Password
           </td>
           <td align="left">
-            <html:text property="address" size="30" maxlength="30"/>
+            <html:text property="password" size="30" maxlength="30"/>
           </td>
         </tr>
 
         <tr>
           <td align="right">
-            <html:submit>Save</html:submit>
+            <html:submit>Submit</html:submit>
           </td>
           <td align="left">
             <html:cancel>Cancel</html:cancel>

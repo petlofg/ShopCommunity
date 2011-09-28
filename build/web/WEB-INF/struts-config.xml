@@ -7,7 +7,7 @@
 
 <struts-config>
     <form-beans>
-    
+        <form-bean name="LoginForm" type="com.webshop.web.form.LoginForm"/>
     </form-beans>
     
     <global-exceptions>
@@ -15,7 +15,7 @@
     </global-exceptions>
 
     <global-forwards>
-        <forward name="welcome"  path="/Welcome.do"/>
+<!--        <forward name="welcome"  path="/Welcome.do"/>-->
     </global-forwards>
 
     <action-mappings>
@@ -26,19 +26,14 @@
         
         <action
             path="/Login"
-            type="com.webshop.web.MainAction"
-            parameter="userLogin"
+            type="com.webshop.web.LoginAction"
             name="LoginForm"
             scope="request"
             validate="true"
-            input="../pages/Login.jsp">
-            <forward name="success" path="/pages/index.jsp"/>
+            input="../login.jsp">
+            <forward name="success" path="/HelloWorld.do"/>
         </action>
     </action-mappings>
-    
-    <form-bean name="LoginForm" type="com.webshop.web.form.LoginForm"/>
-    
-    
     
     <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
 

@@ -36,11 +36,16 @@ public class LoginForm extends ActionForm{
         return password;
     }
     
+    public void reset(ActionMapping mapping, HttpServletRequest request) {
+        this.login=null;
+        this.password=null;
+    }
+    
     public ActionErrors validate(ActionMapping mapping, HttpServletRequest request){
         ActionErrors errors = new ActionErrors();
         //Regex  ^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$
         if( getLogin() == null || getLogin().length() < 1 ) {
-            errors.add("logim",new ActionMessage("error.login.required"));
+            errors.add("login",new ActionMessage("error.login.required"));
         }
         if( getPassword() == null || getPassword().length() < 1 ) {
             errors.add("password",new ActionMessage("error.password.required"));

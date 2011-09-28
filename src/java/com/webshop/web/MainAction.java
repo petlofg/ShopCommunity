@@ -28,19 +28,10 @@ public class MainAction extends MappingDispatchAction {
                                 ActionForm actionForm,
                                 HttpServletRequest httpServletRequest,
                                 HttpServletResponse httpServletResponse){
-        UserController.addItemToShoppingCart(httpServletRequest.getAttribute("itemPK"));
-        
-        httpServletRequest.getSession().
+//        UserController.addItemToShoppingCart(httpServletRequest.getAttribute("itemPK"));
+//        
+//        httpServletRequest.getSession().
         
         return actionMapping.findForward("welcome_page");
-    }
-
-    public ActionForward userLogin(ActionMapping actionMapping, 
-                                ActionForm actionForm,
-                                HttpServletRequest httpServletRequest,
-                                HttpServletResponse httpServletResponse){
-        
-        
-        return actionMapping.findForward("success");
     }
 }
