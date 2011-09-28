@@ -24,17 +24,7 @@ public class MainAction extends MappingDispatchAction {
         return actionMapping.findForward("welcome_page");
     }
     
-     public ActionForward placeItemInShoppingCart(ActionMapping actionMapping, 
-                                ActionForm actionForm,
-                                HttpServletRequest httpServletRequest,
-                                HttpServletResponse httpServletResponse){
-        //UserController.addItemToShoppingCart(httpServletRequest.getAttribute("itemPK"));
-        
-        //httpServletRequest.getSession().
-        
-        return actionMapping.findForward("welcome_page");
-    }
-
+<<<<<<< HEAD
     public ActionForward userLogin(ActionMapping actionMapping, 
                                 ActionForm actionForm,
                                 HttpServletRequest httpServletRequest,
@@ -42,5 +32,16 @@ public class MainAction extends MappingDispatchAction {
         
         
         return actionMapping.findForward("success");
+=======
+     public ActionForward placeItemInShoppingCart(ActionMapping actionMapping, 
+                                ActionForm actionForm,
+                                HttpServletRequest httpServletRequest,
+                                HttpServletResponse httpServletResponse){
+        UserController.addItemToShoppingCart(httpServletRequest.getAttribute("itemPK"));
+        
+        httpServletRequest.getSession().
+        
+        return actionMapping.findForward("welcome_page");
+>>>>>>> origin/master
     }
 }

@@ -23,7 +23,22 @@
             type="com.webshop.web.MainAction">
             <forward name="welcome_page" path="/welcomeTest.jsp"></forward>
         </action>
+        
+        <action
+            path="/Login"
+            type="com.webshop.web.MainAction"
+            parameter="userLogin"
+            name="LoginForm"
+            scope="request"
+            validate="true"
+            input="../pages/Login.jsp">
+            <forward name="success" path="/pages/index.jsp"/>
+        </action>
     </action-mappings>
+    
+    <form-bean name="LoginForm" type="com.webshop.web.form.LoginForm"/>
+    
+    
     
     <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
 

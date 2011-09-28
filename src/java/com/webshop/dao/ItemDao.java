@@ -4,6 +4,10 @@
  */
 package com.webshop.dao;
 
+import com.webshop.domain.Item;
+
+
+
 /**
  *
  * @author Petter
@@ -14,6 +18,7 @@ public class ItemDao {
     }
     
     public static Item getItem(Long pk){
+        return null;
         //(Sting fullName)
     }
     
