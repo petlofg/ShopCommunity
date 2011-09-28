@@ -21,4 +21,13 @@ public class MainAction extends MappingDispatchAction {
         
         return actionMapping.findForward("welcome_page");
     }
+    
+    public ActionForward userLogin(ActionMapping actionMapping, 
+                                ActionForm actionForm,
+                                HttpServletRequest httpServletRequest,
+                                HttpServletResponse httpServletResponse){
+        
+        
+        return actionMapping.findForward("success");
+    }
 }

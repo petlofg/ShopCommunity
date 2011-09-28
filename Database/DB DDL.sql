@@ -1,4 +1,4 @@
-ï»¿SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL';
 
@@ -37,7 +37,7 @@ CREATE  TABLE IF NOT EXISTS `webshop`.`USER` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
-COMMENT = 'PHONENUMBER till POSTALCODE fÃ¥r inte vara null fÃ¶r anvÃ¤ndare vars ROLE Ã¤r CUSTOMER.\nDetta mÃ¥ste skÃ¶tas i applikationslogiken.';
+COMMENT = 'PHONENUMBER till POSTALCODE får inte vara null för användare vars ROLE är CUSTOMER.\nDetta måste skötas i applikationslogiken.';
 
 
 -- -----------------------------------------------------
@@ -154,7 +154,6 @@ insert into role (VALUE) value('ADMIN');
 insert into role (VALUE) value('STOREMAN');
 insert into role (VALUE) value('CUSTOMER');
 
-insert into liststatus (VALUE) value('INSHOPPINGCART');
 insert into liststatus (VALUE) value('ORDERED');
 insert into liststatus (VALUE) value('PACKAGED');
 insert into liststatus (VALUE) value('SENT');

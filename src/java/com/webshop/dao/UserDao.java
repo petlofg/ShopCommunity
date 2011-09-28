@@ -21,14 +21,14 @@ public class UserDao {
     public static void setRole(String eMail, Enum role){
         //TODO: Add role enum
     }
-    
-    public static User getUser(String eMail){
-        //TODO: Add User stuff here
-    }
-    
-    public static bool addUser(User user){
-        //TODO:Adduserandcheck
-        //Gick det bra- ja/nej
-        return false;
-    }
+//    
+//    public static User getUser(String eMail){
+//        //TODO: Add User stuff here
+//    }
+//    
+//    public static bool addUser(User user){
+//        //TODO:Adduserandcheck
+//        //Gick det bra- ja/nej
+//        return false;
+//    }
 }
