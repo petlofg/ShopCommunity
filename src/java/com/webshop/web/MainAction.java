@@ -28,9 +28,9 @@ public class MainAction extends MappingDispatchAction {
                                 ActionForm actionForm,
                                 HttpServletRequest httpServletRequest,
                                 HttpServletResponse httpServletResponse){
-        UserController.addItemToShoppingCart(httpServletRequest.getAttribute("itemPK"));
+        //UserController.addItemToShoppingCart(httpServletRequest.getAttribute("itemPK"));
         
-        httpServletRequest.getSession().
+        //httpServletRequest.getSession().
         
         return actionMapping.findForward("welcome_page");
     }
